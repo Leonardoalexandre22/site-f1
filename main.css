@@ -1,0 +1,104 @@
+:root {
+    --color-white: #fff;
+    --color-black: rgb(0, 0, 0);
+    --color-red: rgb(255, 0, 0);
+    --color-blue: rgb(0, 0, 255);
+    --color-blue2: rgb(47, 47, 207);
+    --color-blue3:#fff;
+    --color-grey: rgb(44, 44, 44);
+}
+
+body {
+    background-image: radial-gradient(#fff, #c7c7c7);
+    font-family: "Roboto", sans-serif;
+
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--color-black);
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: var(--color-blue3);
+    border-radius: 10px;
+    padding: 0px 30px;
+    margin: 10px;
+    z-index: 1000;
+}
+
+section {
+    border: 10px;
+}
+
+img {
+    padding: 10px 0;
+}
+
+.cabeçalho {
+    text-align: center;
+    margin: 10px;
+    background-color: var(--color-blue3);
+    color: var(--color-white);
+    border-radius: 10px;
+}
+
+.contato h2 {
+    padding: 1rem;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: .5rem;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 7.5rem;
+}
+
+form {
+    max-width: 22.5rem;
+    margin-left: 1rem;
+}
+
+.botao {
+    margin-top: 10px;
+}
+
+.social {
+    margin-top: 16px;
+    padding: 10px;
+}
+
+.sociais-link,
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sociais-link img {
+    height: 60px;
+    padding: 10px;
+}
+
+.meme{
+    border: 5px solid var(--color-blue);
+    border-radius: 10px;
+}
